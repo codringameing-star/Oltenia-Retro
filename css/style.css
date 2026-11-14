@@ -1,0 +1,11 @@
+header, main, section, article{
+    border: 2px dashed #06d83e;
+    padding: 12px;
+    margin: 8px 0;
+}
+section { border-color: rgb(88, 12, 241);}
+article { border-color: rgb(86, 48, 3);}
+
+.hero {
+    border-color: rgba(0, 149, 255, 0.533);
+}
