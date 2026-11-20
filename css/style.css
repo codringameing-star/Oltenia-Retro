@@ -1,11 +1,37 @@
-header, main, section, article{
-    border: 2px dashed #06d83e;
-    padding: 12px;
-    margin: 8px 0;
+/* Reset de baza */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-section { border-color: rgb(88, 12, 241);}
-article { border-color: rgb(86, 48, 3);}
 
-.hero {
-    border-color: #ff000088;
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: rgb(254, 255, 255);
+    color: black;
+}
+
+
+/* Bara de sus */
+.navbar {
+    positions: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(207, 18, 18);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgb(202, 243, 238) ;
+    box-shadow: 0 4px 20px rgb(58, 116, 56);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
 }
