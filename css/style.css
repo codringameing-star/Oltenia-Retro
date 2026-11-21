@@ -12,3 +12,6 @@ body {
  color: #ffffff;
  line-height: 1.6;
 }
+.navbar {
+    background: rgb(105, 195, 32);
+}
