@@ -12,7 +12,17 @@ body {
  color: #ffffff;
  line-height: 1.6;
 }
+
+
+/* Temporar: pagina e inca scurta, o lungim ca sa putem derula , o stergem la L8. */
+main {
+    min-height: 1500px;
+}
+
 .navbar {
     background: rgb(105, 195, 32);
     border-bottom: 1px solid rgba(255, 255, 0, 0.41);
+    box-shadow: 0 4px 20px rgba(255, 255, 0, 0.41);
+    position: sticky;
+    top: 0;
 }
